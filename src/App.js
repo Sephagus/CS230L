@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import { Card } from "react-bootstrap";
+import { NavBar } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <h1>CS 230L</h1>
-      <h2>Section - 003</h2>
-      <p>WVU ID: 800425429</p>
-      <p>Hi I am Seth McBee</p>
+    <div>
+      <NavBar />
+      <Card />
     </div>
   );
 }

@@ -1,12 +1,12 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import { NavBar } from "react-bootstrap";
+import cardComponent from "./card";
+import BasicExample from "./navbar";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Card />
+      <BasicExample />
+      <cardComponent />
     </div>
   );
 }

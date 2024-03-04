@@ -4,7 +4,7 @@ import { NavBar } from "react-bootstrap";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <Card />
     </div>
